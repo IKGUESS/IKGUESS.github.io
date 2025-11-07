@@ -86,3 +86,31 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         }
     });
 });
+// Language Switch Functionality
+const langSwitch = document.getElementById('lang-switch');
+const translatableElements = document.querySelectorAll('[data-fr][data-en]');
+
+langSwitch.addEventListener('change', () => {
+    const isEnglish = langSwitch.checked;
+    translatableElements.forEach(el => {
+        el.textContent = isEnglish ? el.dataset.en : el.dataset.fr;
+    });
+    document.documentElement.lang = isEnglish ? 'en' : 'fr';
+});
+
+// Keep current state on load
+window.addEventListener('load', () => {
+    const savedLang = localStorage.getItem('language');
+    if (savedLang === 'en') {
+        langSwitch.checked = true;
+        translatableElements.forEach(el => {
+            el.textContent = el.dataset.en;
+        });
+        document.documentElement.lang = 'en';
+    }
+});
+
+// Save preference
+langSwitch.addEventListener('change', () => {
+    localStorage.setItem('language', langSwitch.checked ? 'en' : 'fr');
+});

@@ -18,12 +18,25 @@
                 <span class="logo-text">IG</span>
             </div>
             <ul class="nav-menu">
-                <li><a href="#home" class="nav-link active">Accueil</a></li>
-                <li><a href="#about" class="nav-link">À Propos</a></li>
-                <li><a href="#experience" class="nav-link">Expérience</a></li>
-                <li><a href="#skills" class="nav-link">Compétences</a></li>
-                <li><a href="#contact" class="nav-link">Contact</a></li>
+                <li><a href="#home" class="nav-link active" data-fr="Accueil" data-en="Home">Accueil</a></li>
+                <li><a href="#about" class="nav-link" data-fr="À Propos" data-en="About">À Propos</a></li>
+                <li><a href="#experience" class="nav-link" data-fr="Expérience" data-en="Experience">Expérience</a></li>
+                <li><a href="#skills" class="nav-link" data-fr="Compétences" data-en="Skills">Compétences</a></li>
+                <li><a href="#contact" class="nav-link" data-fr="Contact" data-en="Contact">Contact</a></li>
             </ul>
+            <div class="nav-right">
+                <a href="cv-ikram-guessous.pdf" download class="btn btn-cv">
+                    <i class="fas fa-download"></i>
+                    <span data-fr="CV" data-en="Resume">CV</span>
+                </a>
+                <div class="language-switch">
+                    <input type="checkbox" id="lang-switch" />
+                    <label for="lang-switch" class="switch-label">
+                        <span class="lang-fr">FR</span>
+                        <span class="lang-en">EN</span>
+                    </label>
+                </div>
+            </div>
             <div class="hamburger">
                 <span></span>
                 <span></span>
@@ -36,37 +49,41 @@
         <div class="container">
             <div class="hero-content">
                 <div class="hero-badge">
-                    <span>👋 Bienvenue dans mon univers digital</span>
+                    <span data-fr="Bienvenue dans mon univers digital" data-en="Welcome to my digital universe">Bienvenue dans mon univers digital</span>
                 </div>
                 <h1 class="hero-title">
-                    Je suis <span class="gradient-text">Ikram Guessous</span>
+                    <span class="gradient-text">Ikram Guessous</span>
                 </h1>
-                <p class="hero-subtitle">Étudiante en Transformation Digitale Industrielle</p>
-                <p class="hero-description">
+                <p class="hero-subtitle" data-fr="Étudiante en Transformation Digitale Industrielle" data-en="Industrial Digital Transformation Student">Étudiante en Transformation Digitale Industrielle</p>
+                <p class="hero-description" data-fr="Passionnée par l'innovation, la cybersécurité et la digitalisation des processus industriels" data-en="Passionate about innovation, cybersecurity, and industrial process digitalization">
                     Passionnée par l'innovation, la cybersécurité et la digitalisation des processus industriels
                 </p>
                 <div class="hero-buttons">
                     <a href="#contact" class="btn btn-primary">
-                        <span>Travaillons Ensemble</span>
+                        <span data-fr="Contactez-Moi" data-en="Contact Me">Travaillons Ensemble</span>
                         <i class="fas fa-arrow-right"></i>
                     </a>
                     <a href="#experience" class="btn btn-secondary">
-                        <span>Voir Mon Parcours</span>
+                        <span data-fr="Voir Mon Parcours" data-en="View My Journey">Voir Mon Parcours</span>
                         <i class="fas fa-briefcase"></i>
+                    </a>
+                    <a href="cv-ikram-guessous.pdf" download class="btn btn-cv-mobile">
+                        <i class="fas fa-download"></i>
+                        <span data-fr="Télécharger CV" data-en="Download Resume">Télécharger CV</span>
                     </a>
                 </div>
                 <div class="hero-stats">
                     <div class="stat-item">
                         <div class="stat-number">3+</div>
-                        <div class="stat-label">Stages</div>
+                        <div class="stat-label" data-fr="Stages" data-en="Internships">Stages</div>
                     </div>
                     <div class="stat-item">
                         <div class="stat-number">ISO 27001</div>
-                        <div class="stat-label">Certification</div>
+                        <div class="stat-label" data-fr="Certification" data-en="Certification">Certification</div>
                     </div>
                     <div class="stat-item">
                         <div class="stat-number">2025</div>
-                        <div class="stat-label">Diplômée</div>
+                        <div class="stat-label" data-fr="Diplômée" data-en="Graduating">Diplômée</div>
                     </div>
                 </div>
             </div>
@@ -79,8 +96,8 @@
     <section id="about" class="about">
         <div class="container">
             <div class="section-header">
-                <span class="section-tag">Qui suis-je ?</span>
-                <h2 class="section-title">À Propos de Moi</h2>
+                <span class="section-tag" data-fr="Qui suis-je ?" data-en="Who am I?">Qui suis-je ?</span>
+                <h2 class="section-title" data-fr="À Propos de Moi" data-en="About Me">À Propos de Moi</h2>
             </div>
             <div class="about-content">
                 <div class="about-image-wrapper">
@@ -89,7 +106,7 @@
                     <div class="image-frame"></div>
                 </div>
                 <div class="about-text">
-                    <h3 class="about-subtitle">Cycle Ingénieur - Transformation Digitale Industrielle</h3>
+                    <h3 class="about-subtitle" data-fr="Cycle Ingénieur - Transformation Digitale Industrielle" data-en="Engineering Cycle - Industrial Digital Transformation">Cycle Ingénieur - Transformation Digitale Industrielle</h3>
                     <p class="about-description">
                         Je suis étudiante à l'<strong>ENSA Béni Mellal</strong>, poursuivant mon diplôme d'ingénieur en Transformation Digitale Industrielle. Ma passion réside dans la mise en œuvre de solutions numériques innovantes pour optimiser les processus industriels et garantir une cybersécurité robuste.
                     </p>
@@ -100,7 +117,7 @@
                         <div class="info-card">
                             <i class="fas fa-graduation-cap"></i>
                             <div>
-                                <h4>Formation</h4>
+                                <h4 data-fr="Formation" data-en="Education">Formation</h4>
                                 <p>ENSA Béni Mellal</p>
                                 <span>2021-2025</span>
                             </div>
@@ -108,7 +125,7 @@
                         <div class="info-card">
                             <i class="fas fa-map-marker-alt"></i>
                             <div>
-                                <h4>Localisation</h4>
+                                <h4 data-fr="Localisation" data-en="Location">Localisation</h4>
                                 <p>Béni Mellal</p>
                                 <span>Maroc</span>
                             </div>
@@ -124,7 +141,7 @@
                         <div class="info-card">
                             <i class="fas fa-phone"></i>
                             <div>
-                                <h4>Téléphone</h4>
+                                <h4 data-fr="Téléphone" data-en="Phone">Téléphone</h4>
                                 <p>+212 707190199</p>
                             </div>
                         </div>
@@ -137,8 +154,8 @@
     <section id="experience" class="experience">
         <div class="container">
             <div class="section-header">
-                <span class="section-tag">Mon Parcours</span>
-                <h2 class="section-title">Expérience Professionnelle</h2>
+                <span class="section-tag" data-fr="Mon Parcours" data-en="My Journey">Mon Parcours</span>
+                <h2 class="section-title" data-fr="Expérience Professionnelle" data-en="Professional Experience">Expérience Professionnelle</h2>
             </div>
             <div class="timeline">
                 <div class="timeline-item" data-date="Juin - Août 2025">
@@ -146,14 +163,16 @@
                         <div class="timeline-icon">
                             <i class="fas fa-shield-alt"></i>
                         </div>
-                        <h3>Application de Conformité ISO 27001</h3>
+                        <h3 data-fr="Application de Conformité ISO 27001" data-en="ISO 27001 Compliance Application">Application de Conformité ISO 27001</h3>
                         <h4>Alexsys Solutions, Casablanca</h4>
-                        <p>Développement d'une application complète pour le suivi des 114 contrôles de la norme ISO, création d'une boîte à outils documentaire et mise en place d'un SMSI conforme à ISO/IEC 27001:2022.</p>
+                        <p data-fr="Développement d'une application complète pour le suivi des 114 contrôles de la norme ISO, création d'une boîte à outils documentaire et mise en place d'un SMSI conforme à ISO/IEC 27001:2022." data-en="Development of a full application to track the 114 ISO controls, creation of a documentation toolkit, and implementation of an ISMS compliant with ISO/IEC 27001:2022.">
+                            Développement d'une application complète pour le suivi des 114 contrôles de la norme ISO...
+                        </p>
                         <div class="timeline-tags">
                             <span>ISO 27001</span>
                             <span>SMSI</span>
-                            <span>Sécurité</span>
-                            <span>Conformité</span>
+                            <span data-fr="Sécurité" data-en="Security">Sécurité</span>
+                            <span data-fr="Conformité" data-en="Compliance">Conformité</span>
                         </div>
                     </div>
                 </div>
@@ -163,13 +182,15 @@
                         <div class="timeline-icon">
                             <i class="fas fa-laptop-code"></i>
                         </div>
-                        <h3>Projet de Transformation Digitale</h3>
+                        <h3 data-fr="Projet de Transformation Digitale" data-en="Digital Transformation Project">Projet de Transformation Digitale</h3>
                         <h4>Europ Assistance Holding, Paris</h4>
-                        <p>Contribution à la transformation digitale des applications de gestion des paiements sinistres, analyse des besoins métiers et collaboration avec les équipes IT, finance et opérations.</p>
+                        <p data-fr="Contribution à la transformation digitale des applications de gestion des paiements sinistres, analyse des besoins métiers et collaboration avec les équipes IT, finance et opérations." data-en="Contribution to the digital transformation of claims payment management applications, business needs analysis, and collaboration with IT, finance, and operations teams.">
+                            Contribution à la transformation digitale des applications...
+                        </p>
                         <div class="timeline-tags">
-                            <span>Transformation Digitale</span>
-                            <span>Process Optimization</span>
-                            <span>Analyse Métier</span>
+                            <span data-fr="Transformation Digitale" data-en="Digital Transformation">Transformation Digitale</span>
+                            <span data-fr="Optimisation Processus" data-en="Process Optimization">Process Optimization</span>
+                            <span data-fr="Analyse Métier" data-en="Business Analysis">Analyse Métier</span>
                         </div>
                     </div>
                 </div>
@@ -179,13 +200,15 @@
                         <div class="timeline-icon">
                             <i class="fas fa-lock"></i>
                         </div>
-                        <h3>Audit de Cybersécurité</h3>
+                        <h3 data-fr="Audit de Cybersécurité" data-en="Cybersecurity Audit">Audit de Cybersécurité</h3>
                         <h4>Procheck, Casablanca</h4>
-                        <p>Implémentation de la norme ISO 27001:2022, réalisation d'un audit blanc de sécurité informatique et rédaction de procédures internes en cybersécurité.</p>
+                        <p data-fr="Implémentation de la norme ISO 27001:2022, réalisation d'un audit blanc de sécurité informatique et rédaction de procédures internes en cybersécurité." data-en="Implementation of ISO 27001:2022, conduct of a cybersecurity white audit, and drafting of internal cybersecurity procedures.">
+                            Implémentation de la norme ISO 27001:2022...
+                        </p>
                         <div class="timeline-tags">
-                            <span>Cybersécurité</span>
-                            <span>Audit</span>
-                            <span>Gestion des Risques</span>
+                            <span data-fr="Cybersécurité" data-en="Cybersecurity">Cybersécurité</span>
+                            <span data-fr="Audit" data-en="Audit">Audit</span>
+                            <span data-fr="Gestion des Risques" data-en="Risk Management">Gestion des Risques</span>
                         </div>
                     </div>
                 </div>
@@ -196,52 +219,52 @@
     <section id="skills" class="skills">
         <div class="container">
             <div class="section-header">
-                <span class="section-tag">Mes Atouts</span>
-                <h2 class="section-title">Compétences & Expertise</h2>
+                <span class="section-tag" data-fr="Mes Atouts" data-en="My Strengths">Mes Atouts</span>
+                <h2 class="section-title" data-fr="Compétences & Expertise" data-en="Skills & Expertise">Compétences & Expertise</h2>
             </div>
             <div class="skills-grid">
                 <div class="skill-category">
                     <div class="category-header">
                         <i class="fas fa-code"></i>
-                        <h3>Compétences Techniques</h3>
+                        <h3 data-fr="Compétences Techniques" data-en="Technical Skills">Compétences Techniques</h3>
                     </div>
                     <div class="skills-list">
                         <div class="skill-tag">ISO 27001 & Sécurité de l'Information</div>
-                        <div class="skill-tag">Audit Blanc de Sécurité</div>
-                        <div class="skill-tag">Gestion de Projet</div>
-                        <div class="skill-tag">Analyse de Processus</div>
-                        <div class="skill-tag">Documentation Technique</div>
+                        <div class="skill-tag" data-fr="Audit Blanc de Sécurité" data-en="Security White Audit">Audit Blanc de Sécurité</div>
+                        <div class="skill-tag" data-fr="Gestion de Projet" data-en="Project Management">Gestion de Projet</div>
+                        <div class="skill-tag" data-fr="Analyse de Processus" data-en="Process Analysis">Analyse de Processus</div>
+                        <div class="skill-tag" data-fr="Documentation Technique" data-en="Technical Documentation">Documentation Technique</div>
                         <div class="skill-tag">Microsoft Office Suite</div>
-                        <div class="skill-tag">Trello & Outils Collaboratifs</div>
-                        <div class="skill-tag">Transformation Digitale</div>
+                        <div class="skill-tag" data-fr="Trello & Outils Collaboratifs" data-en="Trello & Collaborative Tools">Trello & Outils Collaboratifs</div>
+                        <div class="skill-tag" data-fr="Transformation Digitale" data-en="Digital Transformation">Transformation Digitale</div>
                     </div>
                 </div>
 
                 <div class="skill-category">
                     <div class="category-header">
                         <i class="fas fa-lightbulb"></i>
-                        <h3>Soft Skills</h3>
+                        <h3 data-fr="Soft Skills" data-en="Soft Skills">Soft Skills</h3>
                     </div>
                     <div class="skills-list">
-                        <div class="skill-tag">Communication</div>
-                        <div class="skill-tag">Travail en Équipe</div>
-                        <div class="skill-tag">Adaptabilité</div>
-                        <div class="skill-tag">Résolution de Problèmes</div>
-                        <div class="skill-tag">Leadership</div>
-                        <div class="skill-tag">Planification d'Événements</div>
+                        <div class="skill-tag" data-fr="Communication" data-en="Communication">Communication</div>
+                        <div class="skill-tag" data-fr="Travail en Équipe" data-en="Teamwork">Travail en Équipe</div>
+                        <div class="skill-tag" data-fr="Adaptabilité" data-en="Adaptability">Adaptabilité</div>
+                        <div class="skill-tag" data-fr="Résolution de Problèmes" data-en="Problem Solving">Résolution de Problèmes</div>
+                        <div class="skill-tag" data-fr="Leadership" data-en="Leadership">Leadership</div>
+                        <div class="skill-tag" data-fr="Planification d'Événements" data-en="Event Planning">Planification d'Événements</div>
                     </div>
                 </div>
 
                 <div class="skill-category languages">
                     <div class="category-header">
                         <i class="fas fa-language"></i>
-                        <h3>Langues</h3>
+                        <h3 data-fr="Langues" data-en="Languages">Langues</h3>
                     </div>
                     <div class="language-list">
                         <div class="language-item">
                             <div class="language-header">
                                 <span>Arabe</span>
-                                <span class="level">Langue Maternelle</span>
+                                <span class="level" data-fr="Langue Maternelle" data-en="Native">Langue Maternelle</span>
                             </div>
                             <div class="progress-bar">
                                 <div class="progress" style="width: 100%"></div>
@@ -250,7 +273,7 @@
                         <div class="language-item">
                             <div class="language-header">
                                 <span>Français</span>
-                                <span class="level">Courant</span>
+                                <span class="level" data-fr="Courant" data-en="Fluent">Courant</span>
                             </div>
                             <div class="progress-bar">
                                 <div class="progress" style="width: 95%"></div>
@@ -259,7 +282,7 @@
                         <div class="language-item">
                             <div class="language-header">
                                 <span>Anglais</span>
-                                <span class="level">Professionnel</span>
+                                <span class="level" data-fr="Professionnel" data-en="Professional">Professionnel</span>
                             </div>
                             <div class="progress-bar">
                                 <div class="progress" style="width: 85%"></div>
@@ -274,13 +297,15 @@
     <section id="contact" class="contact">
         <div class="container">
             <div class="section-header">
-                <span class="section-tag">Restons Connectés</span>
-                <h2 class="section-title">Contactez-Moi</h2>
+                <span class="section-tag" data-fr="Restons Connectés" data-en="Let's Stay Connected">Restons Connectés</span>
+                <h2 class="section-title" data-fr="Contactez-Moi" data-en="Contact Me">Contactez-Moi</h2>
             </div>
             <div class="contact-wrapper">
                 <div class="contact-info">
-                    <h3>Parlons de Votre Projet</h3>
-                    <p>Je suis actuellement à la recherche d'opportunités de stage pour mettre en pratique mes compétences en transformation digitale industrielle. N'hésitez pas à me contacter !</p>
+                    <h3 data-fr="Parlons de Votre Projet" data-en="Let's Talk About Your Project">Parlons de Votre Projet</h3>
+                    <p data-fr="Je suis actuellement à la recherche d'opportunités de stage pour mettre en pratique mes compétences en transformation digitale industrielle. N'hésitez pas à me contacter !" data-en="I am currently looking for internship opportunities to apply my skills in industrial digital transformation. Feel free to contact me!">
+                        Je suis actuellement à la recherche d'opportunités de stage...
+                    </p>
                     
                     <div class="contact-methods">
                         <a href="mailto:ikramguessous2003@gmail.com" class="contact-method">
@@ -298,7 +323,7 @@
                                 <i class="fas fa-phone"></i>
                             </div>
                             <div class="method-info">
-                                <h4>Téléphone</h4>
+                                <h4 data-fr="Téléphone" data-en="Phone">Téléphone</h4>
                                 <p>+212 707190199</p>
                             </div>
                         </a>
@@ -318,7 +343,7 @@
                                 <i class="fas fa-map-marker-alt"></i>
                             </div>
                             <div class="method-info">
-                                <h4>Localisation</h4>
+                                <h4 data-fr="Localisation" data-en="Location">Localisation</h4>
                                 <p>Béni Mellal, Maroc</p>
                             </div>
                         </div>
@@ -328,24 +353,24 @@
                 <form class="contact-form" id="contactForm">
                     <div class="form-row">
                         <div class="form-group">
-                            <label>Nom</label>
+                            <label data-fr="Nom" data-en="Name">Nom</label>
                             <input type="text" name="name" placeholder="Votre nom complet" required>
                         </div>
                         <div class="form-group">
-                            <label>Email</label>
+                            <label data-fr="Email" data-en="Email">Email</label>
                             <input type="email" name="email" placeholder="votre@email.com" required>
                         </div>
                     </div>
                     <div class="form-group">
-                        <label>Sujet</label>
+                        <label data-fr="Sujet" data-en="Subject">Sujet</label>
                         <input type="text" name="subject" placeholder="L'objet de votre message" required>
                     </div>
                     <div class="form-group">
-                        <label>Message</label>
+                        <label data-fr="Message" data-en="Message">Message</label>
                         <textarea name="message" rows="5" placeholder="Votre message..." required></textarea>
                     </div>
                     <button type="submit" class="btn btn-primary btn-full">
-                        <span>Envoyer le Message</span>
+                        <span data-fr="Envoyer le Message" data-en="Send Message">Envoyer le Message</span>
                         <i class="fas fa-paper-plane"></i>
                     </button>
                 </form>
@@ -358,7 +383,7 @@
             <div class="footer-content">
                 <div class="footer-brand">
                     <h3>Ikram Guessous</h3>
-                    <p>Étudiante en Transformation Digitale Industrielle</p>
+                    <p data-fr="Étudiante en Transformation Digitale Industrielle" data-en="Industrial Digital Transformation Student">Étudiante en Transformation Digitale Industrielle</p>
                     <div class="social-links">
                         <a href="https://www.linkedin.com/in/ikram-guessous-9b0b3a2a7" target="_blank">
                             <i class="fab fa-linkedin"></i>
@@ -369,12 +394,12 @@
                     </div>
                 </div>
                 <div class="footer-links">
-                    <h4>Navigation</h4>
+                    <h4 data-fr="Navigation" data-en="Navigation">Navigation</h4>
                     <ul>
-                        <li><a href="#home">Accueil</a></li>
-                        <li><a href="#about">À Propos</a></li>
-                        <li><a href="#experience">Expérience</a></li>
-                        <li><a href="#skills">Compétences</a></li>
+                        <li><a href="#home" data-fr="Accueil" data-en="Home">Accueil</a></li>
+                        <li><a href="#about" data-fr="À Propos" data-en="About">À Propos</a></li>
+                        <li><a href="#experience" data-fr="Expérience" data-en="Experience">Expérience</a></li>
+                        <li><a href="#skills" data-fr="Compétences" data-en="Skills">Compétences</a></li>
                     </ul>
                 </div>
                 <div class="footer-contact">
@@ -385,7 +410,7 @@
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2025 Ikram Guessous. Tous droits réservés.</p>
+                <p>&copy; 2025 Ikram Guessous. <span data-fr="Tous droits réservés." data-en="All rights reserved.">Tous droits réservés.</span></p>
             </div>
         </div>
     </footer>
